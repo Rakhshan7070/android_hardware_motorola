@@ -14,9 +14,9 @@
 # limitations under the License.
 
 # HIDL
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(CONFIG_PATH)/hidl/dolby_framework_matrix.xml
-DEVICE_MANIFEST_FILE += $(CONFIG_PATH)/hidl/vendor.dolby.hardware.dms@2.0-service.xml
-DEVICE_MANIFEST_FILE += $(CONFIG_PATH)/hidl/vendor.dolby.media.c2.xml
+#DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(CONFIG_PATH)/hidl/dolby_framework_matrix.xml
+#DEVICE_MANIFEST_FILE += $(CONFIG_PATH)/hidl/vendor.dolby.hardware.dms@2.0-service.xml
+#DEVICE_MANIFEST_FILE += $(CONFIG_PATH)/hidl/vendor.dolby.media.c2.xml
 
 # Enable codec support
 AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
